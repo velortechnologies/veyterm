@@ -1,0 +1,9 @@
+/target
+
+# Local launchers and credentials
+/veyterm
+/.veyterm-token
+/ki
+/.ki-token
+.env
+.env.*
