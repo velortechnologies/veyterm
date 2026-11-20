@@ -2,6 +2,13 @@
 name = "veyterm"
 version = "0.1.0"
 edition = "2024"
+authors = ["Serhij S. <s@g5.is>"]
+license = "Apache-2.0"
+repository = "https://github.com/velortechnologies/veyterm"
+description = "A terminal for autonomous agents (OpenClaw-compatible)"
+readme = "README.md"
+keywords = ["cli", "ai", "agent", "openclaw"]
+autoexamples = false
 
 [dependencies]
 base64 = "0.23.1"
