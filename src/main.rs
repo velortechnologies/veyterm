@@ -229,11 +229,11 @@ impl App {
     fn request(&self, method: &str, params: Value) {
         let serial = self.request_serial.get() + 1;
         self.request_serial.set(serial);
-        if method == "chat.send" {
-            if let Some(text) = params["message"].as_str() {
-                let record = self.message_record("user", text);
-                self.log_message(&record);
-            }
+        if method == "chat.send"
+            && let Some(text) = params["message"].as_str()
+        {
+            let record = self.message_record("user", text);
+            self.log_message(&record);
         }
         let _ = self.commands.send(gateway::Request {
             method: method.into(),
