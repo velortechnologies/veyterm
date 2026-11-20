@@ -2,7 +2,17 @@
 
 A terminal for autonomous agents. A Rust + Ratatui client for OpenClaw Gateway.
 
-## Build and run
+## Install
+
+Install from crates.io:
+
+```sh
+cargo install veyterm
+export VEYTERM_TOKEN='your-gateway-token'
+veyterm gateway.example:18789
+```
+
+## Build from source
 
 ```sh
 git clone https://github.com/velortechnologies/veyterm.git
@@ -78,3 +88,7 @@ python3 tests/wss_reconnect.py
 The reconnect fixture requires Python 3, OpenSSL and Unix PTYs. It runs a local
 mock Gateway, not a production server. See [reconnect behavior](docs/reconnect.md)
 and [overlapping turns](docs/overlapping-turns.md) for protocol details and limits.
+
+## License
+
+Licensed under the [Apache License, Version 2.0](LICENSE).

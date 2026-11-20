@@ -989,26 +989,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "veyterm"
-version = "0.1.0"
-dependencies = [
- "base64",
- "clap",
- "crossterm",
- "ed25519-dalek",
- "mime_guess",
- "ratatui",
- "reqwest",
- "rustls",
- "serde_json",
- "sha2",
- "tungstenite",
- "unicode-width",
- "url",
- "webpki-roots",
-]
-
-[[package]]
 name = "libc"
 version = "0.2.191"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2129,6 +2109,26 @@ name = "utf_types"
 version = "1.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3a3b425286980a367278453f3b6d28cdcb134b574e5a35824a6ff5eebad50bb6"
+
+[[package]]
+name = "veyterm"
+version = "0.1.0"
+dependencies = [
+ "base64",
+ "clap",
+ "crossterm",
+ "ed25519-dalek",
+ "mime_guess",
+ "ratatui",
+ "reqwest",
+ "rustls",
+ "serde_json",
+ "sha2",
+ "tungstenite",
+ "unicode-width",
+ "url",
+ "webpki-roots",
+]
 
 [[package]]
 name = "walkdir"
