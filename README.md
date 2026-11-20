@@ -1,5 +1,5 @@
 <h2>
-  Veyterm — a terminal for autonomous agents
+  Veyterm: a terminal for autonomous agents
   <a href="https://crates.io/crates/veyterm"><img alt="crates.io" src="https://img.shields.io/crates/v/veyterm.svg"></a>
   <a href="https://github.com/velortechnologies/veyterm/actions/workflows/ci.yml"><img alt="GitHub Actions CI" src="https://github.com/velortechnologies/veyterm/actions/workflows/ci.yml/badge.svg"></a>
   <a href="LICENSE"><img alt="License: Apache-2.0" src="https://img.shields.io/crates/l/veyterm.svg"></a>
